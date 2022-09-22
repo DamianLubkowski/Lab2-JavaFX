@@ -6,11 +6,31 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab2javafx.HelloController">
    <children>
-      <Button fx:id="btnMain" layoutX="179.0" layoutY="161.0" mnemonicParsing="false" onAction="#onBtnAction" style="-fx-background-color: blue;" text="Kliknij mnie!" textFill="#bf0000">
+      <Button fx:id="btnMain" layoutX="247.0" layoutY="240.0" mnemonicParsing="false" onAction="#onBtnAction" prefHeight="33.0" prefWidth="121.0" text="Wylicz">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="radius" layoutX="232.0" layoutY="99.0" />
+      <TextField fx:id="height" layoutX="233.0" layoutY="147.0" />
+      <TextField fx:id="weight" layoutX="233.0" layoutY="200.0" />
+      <Text layoutX="170.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Promień:" />
+      <Text layoutX="168.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wysokość:" />
+      <Text layoutX="135.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grubość blachy: " />
+      <Text layoutX="259.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Walec">
          <font>
             <Font size="36.0" />
          </font>
-      </Button>
-      <TextField fx:id="txtLicznik" layoutX="240.0" layoutY="266.0" />
+      </Text>
+      <Text layoutX="127.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Z normalnej blachy:" />
+      <Text layoutX="387.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Z blachy nierdzewnej:" />
+      <TextField fx:id="mass_normal" layoutX="104.0" layoutY="322.0" />
+      <TextField fx:id="mass_enhanced" layoutX="369.0" layoutY="322.0" />
+      <TextField fx:id="price_normal" layoutX="104.0" layoutY="360.0" />
+      <TextField fx:id="price_enhanced" layoutX="369.0" layoutY="360.0" />
+      <Text layoutX="51.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ciężar:" />
+      <Text layoutX="9.0" layoutY="377.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Koszt materiału:" />
+      <Text layoutX="307.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ciężar:" />
+      <Text layoutX="270.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Koszt materiału:" />
    </children>
 </AnchorPane>
