@@ -8,8 +8,9 @@ import javafx.scene.control.Label;
 public class HelloController {
     @FXML
     public Button btnMain;
+    int clickCounter = 0;
 
     public void onBtnAction(ActionEvent actionEvent) {
-
+        System.out.println("Kliknięcie nr " + ++clickCounter);
     }
 }
