@@ -1,15 +1,15 @@
 package com.example.lab2javafx;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 public class HelloController {
     @FXML
-    private Label welcomeText;
+    public Button btnMain;
 
-    @FXML
-    protected void onHelloButtonClick() {
-        System.out.println("Test");
-        // welcomeText.setText("Welcome to JavaFX Application!");
+    public void onBtnAction(ActionEvent actionEvent) {
+
     }
 }
