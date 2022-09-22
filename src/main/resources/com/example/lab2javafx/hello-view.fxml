@@ -6,7 +6,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab2javafx.HelloController">
    <children>
-      <Button layoutX="179.0" layoutY="161.0" mnemonicParsing="false" onMouseClicked="#onHelloButtonClick" style="-fx-background-color: blue;" text="Kliknij mnie!" textFill="#bf0000">
+      <Button fx:id="btnMain" layoutX="179.0" layoutY="161.0" mnemonicParsing="false" onAction="#onBtnAction" style="-fx-background-color: blue;" text="Kliknij mnie!" textFill="#bf0000">
          <font>
             <Font size="36.0" />
          </font>
